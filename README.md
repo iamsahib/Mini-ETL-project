@@ -32,15 +32,15 @@ datetime: For timestamp generation and handling
 
 glob: To fetch all files of a particular type from the source directory
 
-Steps performed:
+**Steps performed:**
 
-Extract Phase:
+**Extract Phase:**
 
   Fetched multiple CSV files from a source folder using glob.
 
   Read them using pandas and appended into a single DataFrame.
 
-Transform Phase:
+**Transform Phase:**
 
   Cleaned and formatted the data by:
 
@@ -54,7 +54,7 @@ Transform Phase:
 
   Added metadata like a timestamp column for tracking
 
-Load Phase:
+**Load Phase:**
 
   Saved the final cleaned and transformed data into a new CSV file using to_csv().
 
